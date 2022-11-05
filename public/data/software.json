@@ -5,7 +5,7 @@
                 {   
                     "id": "1",
                     "url": "https://keepassxc.org/",
-                    "title": "✏️ Visual Studio Code",
+                    "title": "✏️ VS Code",
                     "src":{
                         "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/code.visualstudio.svg"
                         },
@@ -109,9 +109,10 @@
                                 "icon": "https://img.icons8.com/color/96/000000/sql-database-administrators-group-skin-type-3.png"
                             },
                             {
-                                "title": "Roles y usuarios",
-                                "subtitle" : "Administrar roles en PostreSQL",
-                                "icon": "https://robohash.org/icon"
+                                "title": "Conectarse al servidor",
+                                "subtitle" : "conexión desde el cliente de consola psql",
+                                "url": "https://gist.github.com/EniDev911/49d7bad61d627c5af0a7b08204fa73ef",
+                                "icon": "https://img.icons8.com/fluency/96/null/console.png"
 
                             },
                             {
