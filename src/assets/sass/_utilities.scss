@@ -1,0 +1,16 @@
+@use 'mixins';
+
+.grid-lg {
+    @include mixins.make-grid(4, 10px);
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+.grid-md {
+    @include mixins.make-grid(2, 15px);
+}
+
+.grid-sm {
+    @include mixins.make-grid(1, 10px);
+}

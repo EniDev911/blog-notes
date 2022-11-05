@@ -1,0 +1,76 @@
+@use 'mixins';
+
+$selector : '.card';
+
+// card
+#{$selector}{
+
+    padding: 10px;
+    margin: auto;
+    background: #2e2d2d;
+    width: 100%;
+    color: #ccc;
+    @media(hover: hover){
+        &:hover {
+         background: #2a3246;
+         cursor: pointer;
+        }
+         &:hover &__img{
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 9px #c2bf9f);
+         }
+    }
+
+    &__logo {
+        height: 140px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    &__img {
+        height: 100%;
+        @include mixins.transition(transform, .2s, ease-in-out);
+     }
+
+    &__title {
+        font-size: 1.3em;
+        margin: 0.8em 0;
+        text-align: center;
+    }
+
+    // sm
+    &sm{
+        background: #222222;
+        color: #fff;
+        border-radius: 4px;
+        @include mixins.make-flexbox(flex-start);
+        padding: 4px;
+
+        @media(hover: hover){
+            &:hover {
+             background: #2a3246;
+             cursor: pointer;
+            }
+             &:hover &__img{
+                transform: scale(1.1);
+                filter: drop-shadow(0 0 9px #c2bf9f);
+             }
+        }
+        &__logo {
+            height: 50px;
+        }
+        
+        &__img {
+            height: 100%;
+            @include mixins.transition(transform, .2s, ease-in-out);
+         }
+        &__text {
+            margin-left: 10px;
+        }
+
+        &__title {
+            font-size: 19px;
+        }
+    }
+
+}

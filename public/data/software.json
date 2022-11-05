@@ -1,0 +1,171 @@
+{
+    "software": { 
+        "category" : {
+            "development": [
+                {   
+                    "id": "1",
+                    "url": "https://keepassxc.org/",
+                    "title": "✏️ Visual Studio Code",
+                    "src":{
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/code.visualstudio.svg"
+                        },
+                    "subtitle":"Admin de contraseñas",
+                    "description": "Cross-platform + OpenSource"
+                },
+                {
+                    "id": "2",
+                    "url": "https://www.audacityteam.org/download/",
+                    "title": "🗂️ Git",
+                    "subtitle": "Control de versiones",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/git-scm.svg"
+                        },
+                    "description": "Distributed Architecture + OpenSource"
+                },
+                {
+                    "id": "3",
+                    "title": "✏️ Visual Studio Code",
+                    "subtitle": "Editor de código",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/code.visualstudio.svg"
+                    },
+                    "description": "WSL Remote + Others"
+                },
+                {
+                    "id": "4",
+                    "url": "https://www.sublimetext.com/",
+                    "title":"✏️ Sublime Text",
+                    "subtitle":"Editor de código",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/sublimetext.svg"
+                    },
+                    "description":"Cross-platform + Lightweight"
+                }, 
+                {
+                    "id": "5",
+                    "url":"nodejs",
+                    "title": " Nodejs",
+                    "subtitle": "Javascript runtime",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/nodejs.svg"
+                    },
+                    "description":"Open-source, cross-platform, back-end"
+                },
+                {
+                    "id": "6",
+                    "url":"github",
+                    "title": "☁️ Github",
+                    "subtitle": "Javascript runtime",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/github.svg"
+                    },
+                    "description":"Open-source, cross-platform, back-end"
+                },
+                {
+                    "id": "7",
+                    "url":"nodejs",
+                    "title": "🚀 Nodejs",
+                    "subtitle": "Javascript runtime",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/nodejs.svg"
+                    },
+                    "description":"Open-source, cross-platform, back-end"
+                },
+                {
+                    "id": "8",
+                    "url":"nodejs",
+                    "title": "🚀 Nodejs",
+                    "subtitle": "Javascript runtime",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/nodejs.svg"
+                    },
+                    "description":"Open-source, cross-platform, back-end"
+                },
+                {
+                    "id": "9",
+                    "url":"python",
+                    "name": "python",
+                    "title":"🐍 Python",
+                    "subtitle":"Intérprete de python",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/python.svg"
+                    },
+                    "description":"General-purpose + OpenSource"
+                },
+                {
+                    "url": "postgresql",
+                    "name": "postgre",
+                    "title": "🐘 PostgreSQL",
+                    "subtitle": "ORDBMS",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/postgresql.svg"
+                    },
+                    "category": "Bases de datos SQL",
+                    "guides": [
+                            {
+                                "title": "Roles y usuarios",
+                                "subtitle" : "Administrar roles en PostreSQL",
+                                "url": "",
+                                "icon": "https://img.icons8.com/color/96/000000/sql-database-administrators-group-skin-type-3.png"
+                            },
+                            {
+                                "title": "Roles y usuarios",
+                                "subtitle" : "Administrar roles en PostreSQL",
+                                "icon": "https://robohash.org/icon"
+
+                            },
+                            {
+                                "title": "Roles y usuarios",
+                                "subtitle" : "Administrar roles en PostreSQL",
+                                "icon": "https://robohash.org/icon"
+
+                            },
+                            {
+                                "title": "Roles y usuarios",
+                                "subtitle" : "Administrar roles en PostreSQL",
+                                "icon": "https://robohash.org/icon"
+
+                            },                        {
+                                "title": "Roles y usuarios",
+                                "subtitle" : "Administrar roles en PostreSQL",
+                                "icon": "https://robohash.org/icon"
+                            }
+                    ],
+                    "description": "Object oriented database model + OpenSource"
+                },
+                {
+                    "id": "10",
+                    "url":"mysql",
+                    "name": "mysql",
+                    "title":"🐬 MySQL",
+                    "subtitle": "RDBMS Oracle-backend",
+                    "src": {
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/mysql.svg"
+                    },
+                    "guides": [
+                        {
+                            "title": "mysql",
+                            "subtitle" : "Personalizar el prompt de mysql",
+                            "url": "https://gist.github.com/EniDev911/36c85a0ce41c3daa92e813f3a46cd16d",
+                            "icon": "https://img.icons8.com/fluency/96/null/console.png"
+                        },
+                        {
+                            "title": "Roles y usuarios",
+                            "subtitle" : "Administrar roles en PostreSQL",
+                            "url": "",
+                            "icon": "https://img.icons8.com/color/96/000000/sql-database-administrators-group-skin-type-3.png"
+                        },
+                        {
+                            "title": "Roles y usuarios",
+                            "subtitle" : "Administrar roles en PostreSQL",
+                            "url": "",
+                            "icon": "https://img.icons8.com/color/96/000000/sql-database-administrators-group-skin-type-3.png"
+                        }
+                    ],
+                    "description": "Relational database management system"
+                }
+   
+            ]
+        }
+    }
+}

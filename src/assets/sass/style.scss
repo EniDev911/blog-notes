@@ -1,0 +1,21 @@
+@use 'reset';
+@use 'card';
+@use 'navbar';
+@use 'utilities';
+
+#root {
+    background: rgb(19, 17, 17);
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+@media (prefers-color-scheme: dark){
+    #root {
+        background: #ccc;
+    }
+}
+
