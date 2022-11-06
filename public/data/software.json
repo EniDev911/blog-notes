@@ -73,12 +73,20 @@
                 },
                 {
                     "id": "8",
-                    "url":"nodejs",
-                    "title": "🚀 Nodejs",
-                    "subtitle": "Javascript runtime",
+                    "name":"react",
+                    "title": "⚛️ React",
+                    "subtitle": "Biblioteca de Javascript para UI",
                     "src": {
-                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/nodejs.svg"
+                        "svg": "https://raw.githubusercontent.com/EniDev911/assets/main/svg/software/reactjs.svg"
                     },
+                    "guides":[
+                        {
+                            "title": "Crear una APP desde 0",
+                            "subtitle" : "Con webpack y babel",
+                            "url": "https://gist.github.com/EniDev911/2e3cc6222d3749da700f6d3701c157ef",
+                            "icon": "https://img.icons8.com/color/96/000000/sql-database-administrators-group-skin-type-3.png"
+                        }
+                    ],
                     "description":"Open-source, cross-platform, back-end"
                 },
                 {
